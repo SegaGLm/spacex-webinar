@@ -89,7 +89,7 @@ export default function App() {
               <span className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-emerald-700 shadow-sm">Бесплатно</span>
               <span className="flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-blue-700 shadow-sm">
                 <Calendar className="h-4 w-4" />
-                6 мая
+                12 мая
               </span>
               <span className="flex items-center gap-2 rounded-full border border-sky-200 bg-white/80 px-4 py-2 text-sky-700 shadow-sm">
                 <Globe className="h-4 w-4" />
