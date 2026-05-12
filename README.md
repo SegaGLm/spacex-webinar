@@ -1,30 +1,16 @@
 # SpaceX Webinar
 
-Лендинг вебинара «SpaceX Pre-IPO» для Mind Money.
+Статичный лендинг вебинара «SpaceX Pre-IPO» для Mind Money.
 
-## Опубликованная версия
+## Структура
 
-https://vebinar-spacex.pplx.app
+- `index.html` — разметка страницы
+- `styles.css` — стили и анимации
+- `script.js` — отправка формы в Google Apps Script и сбор UTM-меток
+- `assets/` — логотип и документ политики обработки персональных данных
 
-## Что внутри
+Сайт не использует React, Vite, сборку или npm-зависимости.
 
-- Vite + React + TypeScript
-- Tailwind CSS
-- Форма заявки с отправкой в Google Apps Script
-- Согласие на обработку персональных данных
-- Собранная production-версия в папке `dist`
+## Публикация
 
-## Локальный запуск
-
-```bash
-npm install
-npm run dev
-```
-
-## Production-сборка
-
-```bash
-npm run build
-```
-
-Готовая сборка создаётся в папке `dist`.
+GitHub Pages может публиковать сайт напрямую из корня ветки `main`.
